@@ -19,7 +19,7 @@
 
 ```css
 body {
-  font-family: var(--font, var(--font-system));
+  font-family: var(--font, var(--font-fallback));
   font-size: 100%;
   line-height: 1.5; /* may need to be adjusted depending on font family */
 
@@ -27,6 +27,19 @@ body {
 
   background: var(--c-bg);
   transition: background 0.1s ease-in-out; /* For dark / light theme transition  */
+}
+```
+
+**text selection**
+
+```css
+::-moz-selection {
+  color: var(--clr-1-c);
+  background: var(--clr-1);
+}
+::selection {
+  color: var(--clr-1-c);
+  background: var(--clr-1);
 }
 ```
 
