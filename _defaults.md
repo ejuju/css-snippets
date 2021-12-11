@@ -9,7 +9,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
+  border: none;
   color: inherit;
   font: inherit;
 }
@@ -19,11 +19,14 @@
 
 ```css
 body {
-  background: var(--c-bg);
-  transition: background 0.1s ease-in-out;
-  color: var(--c-bg);
   font-family: var(--font, var(--font-system));
+  font-size: 100%;
   line-height: 1.5; /* may need to be adjusted depending on font family */
+
+  color: var(--c-bg);
+
+  background: var(--c-bg);
+  transition: background 0.1s ease-in-out; /* For dark / light theme transition  */
 }
 ```
 
@@ -67,5 +70,23 @@ button {
   text-align: left;
   cursor: pointer;
   font-weight: inherit;
+}
+```
+
+**lists**
+
+```css
+ol,
+ul {
+  list-style: none;
+}
+```
+
+**tables**
+
+```css
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 ```
