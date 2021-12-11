@@ -10,11 +10,8 @@
   padding: 0;
   margin: 0;
 
-  /* font-family: inherit; */
-  font-size: inherit;
-  font-weight: inherit;
   color: inherit;
-  line-height: inherit;
+  font: inherit;
 }
 ```
 
