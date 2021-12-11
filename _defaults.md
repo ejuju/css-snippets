@@ -1,6 +1,6 @@
 # Useful CSS Defaults
 
-** All elements **
+**All elements**
 
 ```css
 *,
@@ -18,7 +18,7 @@
 }
 ```
 
-** body **
+**body**
 
 ```css
 body {
@@ -30,7 +30,7 @@ body {
 }
 ```
 
-** headings **
+**headings**
 
 ```css
 h1,
@@ -52,7 +52,7 @@ h3 {
 }
 ```
 
-** links **
+**links**
 
 ```css
 a {
@@ -60,7 +60,7 @@ a {
 }
 ```
 
-** buttons **
+**buttons**
 
 ```css
 button {
