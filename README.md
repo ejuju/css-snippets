@@ -4,11 +4,12 @@
 
 # CSS Snippets
 
-- [] Defaults
-- [] Borders
-- [] Spacing
-- [] Text
-- [] Color
+- [x] Defaults
+- [x] Borders
+- [x] Spacing
+- [x] Text
+- [x] Colors
+- [x] Util
 
 # Limitations
 

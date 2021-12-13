@@ -23,8 +23,7 @@ body {
   font-size: 100%;
   line-height: 1.5; /* may need to be adjusted depending on font family */
 
-  color: var(--c-bg);
-
+  color: var(--c-txt);
   background: var(--c-bg);
   transition: background 0.1s ease-in-out; /* For dark / light theme transition  */
 }
@@ -50,6 +49,7 @@ h1,
 h2,
 h3 {
   line-height: 1.25;
+  font-family: var(--font-h);
 }
 h1 {
   font-weight: var(--fw-bold);
@@ -92,6 +92,17 @@ button {
 ol,
 ul {
   list-style: none;
+}
+```
+
+**svg**
+
+Make sure the width and height is not set on every SVG used (and viewbox should be set)
+
+```css
+svg {
+  width: 1em;
+  height: 1em;
 }
 ```
 
